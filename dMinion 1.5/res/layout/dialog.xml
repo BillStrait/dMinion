@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/holdBox" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <ScrollView android:layout_height="fill_parent" android:id="@+id/scrollBox" android:layout_width="fill_parent">
+        <RelativeLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/relLayout">
+            <TextView android:text="@string/txtHP" android:id="@+id/hp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/dispCharName" android:layout_centerHorizontal="true" android:layout_marginTop="15dp"></TextView>
+            <EditText android:minEms="3" android:digits="-0123456789" android:id="@+id/inHP" android:inputType="phone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:layout_below="@+id/hp" android:layout_centerHorizontal="true">
+                <requestFocus></requestFocus>
+            </EditText>
+            <TextView android:text="@string/txtTempHP" android:id="@+id/tempHp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/inHP" android:layout_centerHorizontal="true" android:layout_marginTop="19dp"></TextView>
+            <EditText android:minEms="3" android:digits="0123456789" android:id="@+id/inTempHP" android:inputType="phone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:layout_below="@+id/tempHp" android:layout_alignLeft="@+id/inHP"></EditText>
+            <Button android:id="@+id/btnOk" android:text="@string/txtOK" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/inTempHP" android:layout_centerHorizontal="true"></Button>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

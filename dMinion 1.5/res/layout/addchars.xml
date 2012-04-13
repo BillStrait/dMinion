@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/scrollBox">
+	<RelativeLayout
+	    android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/addChars">
+	    <AutoCompleteTextView android:layout_height="wrap_content" android:id="@+id/inCharName" android:hint="@string/txtCharacterNameBox" android:layout_below="@+id/textView1" android:layout_centerHorizontal="true" android:layout_width="fill_parent">
+	        <requestFocus></requestFocus>
+	    </AutoCompleteTextView>
+	    <TextView android:id="@+id/addLblHP" android:layout_height="wrap_content" android:gravity="center" android:layout_width="wrap_content" android:text="@string/txtHP" android:layout_below="@+id/inCharName" android:layout_alignParentLeft="true" android:layout_marginLeft="22dp"></TextView>
+	    <TextView android:id="@+id/addLblTHP" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/txtTempHP" android:layout_below="@+id/inCharName" android:layout_alignParentRight="true" android:layout_marginRight="57dp"></TextView>
+	    <EditText android:id="@+id/inHP" android:digits="-0123456789" android:minEms="3" android:gravity="center" android:layout_height="wrap_content" android:inputType="phone" android:maxLength="3" android:layout_width="wrap_content" android:layout_below="@+id/addLblHP" android:layout_alignLeft="@+id/addLblHP">
+	    </EditText>
+	    <EditText android:id="@+id/inTempHP" android:digits="0123456789" android:minEms="3" android:layout_height="wrap_content" android:inputType="phone" android:maxLength="3" android:layout_width="wrap_content" android:layout_alignBaseline="@+id/inHP" android:layout_alignBottom="@+id/inHP" android:layout_alignLeft="@+id/addLblTHP"></EditText>
+	    <TextView android:id="@+id/addLblInitRoll" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/inHP" android:layout_alignLeft="@+id/inHP" android:text="@string/txtInitRoll"></TextView>
+	    <TextView android:id="@+id/addLblInitBonus" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/inTempHP" android:layout_alignLeft="@+id/inTempHP" android:text="@string/txtInitBonus"></TextView>
+	    <EditText android:digits="0123456789" android:minEms="3" android:layout_height="wrap_content" android:gravity="center" android:inputType="phone" android:maxLength="2" android:layout_width="wrap_content" android:layout_below="@+id/addLblInitRoll" android:layout_alignLeft="@+id/addLblInitRoll" android:id="@+id/inInitRoll"></EditText>
+	    <EditText android:digits="0123456789" android:minEms="3" android:layout_height="wrap_content" android:gravity="center" android:inputType="phone" android:maxLength="2" android:layout_width="wrap_content" android:layout_below="@+id/addLblInitBonus" android:layout_alignLeft="@+id/addLblInitBonus" android:id="@+id/inInitBonus"></EditText>
+	    <TextView android:id="@+id/addLblAC" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/txtAC" android:layout_below="@+id/inInitRoll" android:layout_alignRight="@+id/addLblHP"></TextView>
+	    <EditText android:id="@+id/inAC" android:digits="0123456789" android:gravity="center" android:minEms="3" android:layout_height="wrap_content" android:inputType="phone" android:maxLength="2" android:layout_width="wrap_content" android:layout_below="@+id/addLblAC" android:layout_alignLeft="@+id/addLblAC"></EditText>
+	    <TextView android:id="@+id/addLblFort" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_above="@+id/inAC" android:layout_alignLeft="@+id/inInitBonus" android:text="@string/txtFortitude"></TextView>
+	    <EditText android:digits="0123456789" android:gravity="center" android:minEms="3" android:layout_height="wrap_content" android:inputType="phone" android:maxLength="2" android:layout_width="wrap_content" android:layout_below="@+id/addLblFort" android:layout_alignLeft="@+id/addLblFort" android:id="@+id/inFort"></EditText>
+	    <TextView android:id="@+id/addLblWill" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/inFort" android:layout_alignLeft="@+id/inFort" android:text="@string/txtWill"></TextView>
+	    <TextView android:id="@+id/addLblReflex" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/inAC" android:layout_alignLeft="@+id/inAC" android:text="@string/txtRef"></TextView>
+	    <EditText android:digits="0123456789" android:gravity="center" android:minEms="3" android:layout_height="wrap_content" android:inputType="phone" android:maxLength="2" android:layout_width="wrap_content" android:layout_below="@+id/addLblReflex" android:layout_alignLeft="@+id/inInitRoll" android:id="@+id/inReflex"></EditText>
+	    <EditText android:id="@+id/inWill" android:digits="0123456789" android:gravity="center" android:minEms="3" android:layout_height="wrap_content" android:inputType="phone" android:maxLength="2" android:layout_width="wrap_content" android:layout_above="@+id/chkRoll" android:layout_alignLeft="@+id/addLblWill"></EditText>
+	    <CheckBox android:text="@string/txtRollBox" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/chkRoll" android:layout_below="@+id/inReflex" android:layout_alignLeft="@+id/addLblReflex" android:layout_alignParentRight="true"></CheckBox>
+	</RelativeLayout>
+</ScrollView>

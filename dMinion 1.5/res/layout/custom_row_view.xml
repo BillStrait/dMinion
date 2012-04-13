@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+ 	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent">
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="TextView" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:textSize="32px" android:id="@+id/dispName"></TextView>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginRight="10dp" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:textSize="32px" android:id="@+id/dispHP" android:text="@string/AAA"></TextView>
+    <TextView android:id="@+id/lblHP" android:layout_height="wrap_content" android:layout_width="wrap_content"  android:textSize="32px" android:layout_alignParentTop="true" android:layout_toLeftOf="@+id/dispHP" android:text="@string/txtHP"></TextView>
+    <TextView android:id="@+id/lblAC" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/txtAC" android:layout_below="@+id/lblTempHp" android:layout_alignParentLeft="true"></TextView>
+    <TextView android:id="@+id/lblFort" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/txtFortitude" android:layout_alignBaseline="@+id/lblAC" android:layout_alignBottom="@+id/lblAC" android:layout_toRightOf="@+id/dispAC" android:layout_marginLeft="15dp"></TextView>
+    <TextView android:id="@+id/dispFort" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/AA" android:layout_marginLeft="5dp" android:layout_alignBaseline="@+id/lblFort" android:layout_alignBottom="@+id/lblFort" android:layout_toRightOf="@+id/lblFort"></TextView>
+    <TextView android:id="@+id/dispAC" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/AA" android:layout_marginLeft="5dp" android:layout_alignBaseline="@+id/lblAC" android:layout_alignBottom="@+id/lblAC" android:layout_toRightOf="@+id/lblAC"></TextView>
+    <TextView android:id="@+id/lblRef" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="15dp" android:text="@string/txtRef" android:layout_alignBaseline="@+id/dispFort" android:layout_alignBottom="@+id/dispFort" android:layout_toRightOf="@+id/dispFort"></TextView>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignBaseline="@+id/lblRef" android:layout_alignBottom="@+id/lblRef" android:layout_toRightOf="@+id/lblRef" android:id="@+id/dispRef" android:text="@string/AA"></TextView>
+    <TextView android:id="@+id/dispTempHP" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginRight="10dp" android:layout_marginLeft="5dp" android:layout_above="@+id/dispRef" android:layout_alignParentRight="true" android:text="@string/AAA"></TextView>
+    <TextView android:id="@+id/lblTempHp" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/txtTempHP" android:layout_marginLeft="5dp" android:layout_below="@+id/dispHP" android:layout_toLeftOf="@+id/dispTempHP"></TextView>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignBaseline="@+id/dispRef" android:layout_marginLeft="15dp" android:layout_alignBottom="@+id/dispRef" android:layout_toRightOf="@+id/dispRef" android:id="@+id/lblWill" android:text="@string/txtWill"></TextView>
+    <TextView android:id="@+id/dispWill" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="5dp" android:text="@string/AA" android:layout_alignBaseline="@+id/lblWill" android:layout_alignBottom="@+id/lblWill" android:layout_toRightOf="@+id/lblWill"></TextView>
+</RelativeLayout>

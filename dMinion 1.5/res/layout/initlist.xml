@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:id="@+id/initRL">
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:text="@string/round" android:id="@+id/labelRound"></TextView>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="No Character Loaded" android:layout_below="@+id/roundLabel" android:layout_alignParentLeft="true" android:layout_marginTop="16dp" android:layout_alignParentRight="true" android:textSize="14pt" android:id="@+id/dspCharacter"></TextView>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="0" android:id="@+id/dspTurn" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_marginRight="42dp"></TextView>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/turn" android:id="@+id/labelTurn" android:layout_alignParentTop="true" android:layout_toLeftOf="@+id/dspTurn"></TextView>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="0" android:id="@+id/dspAC" android:layout_alignBaseline="@+id/labelAC" android:layout_alignBottom="@+id/labelAC" android:layout_alignRight="@+id/dspTurn"></TextView>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/txtAC" android:id="@+id/labelAC" android:layout_below="@+id/dspCharacter" android:layout_alignLeft="@+id/labelTurn"></TextView>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/labelHP" android:layout_alignBaseline="@+id/labelAC" android:layout_alignBottom="@+id/labelAC" android:layout_alignParentLeft="true" android:text="@string/txtHP"></TextView>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="0" android:id="@+id/dspRound" android:layout_alignParentTop="true" android:layout_toRightOf="@+id/labelRound"></TextView>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="0" android:layout_alignBaseline="@+id/labelHP" android:layout_alignBottom="@+id/labelHP" android:layout_toRightOf="@+id/labelHP" android:id="@+id/dspHP"></TextView>
+    <Button android:layout_width="wrap_content" android:text="@string/txtNext" android:id="@+id/btnNext" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentRight="true"></Button>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true" android:id="@+id/btnPrevious" android:text="@string/previous"></Button>
+    <Button android:layout_width="wrap_content" android:id="@+id/btnAdd" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:text="@string/add"></Button>
+</RelativeLayout>

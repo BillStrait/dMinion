@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, DMinionActivity!</string>
+    <string name="app_name">dMinion</string>
+    <string name="txtCharName">Character Name:</string>
+    <string name="txtCharacterNameBox">Character Name...</string>
+    <string name="txtAC">AC:</string>
+    <string name="txtFortitude">Fortitude:</string>
+    <string name="txtHP">HP:</string>
+    <string name="txtInitBonus">Initiative Bonus:</string>
+    <string name="txtInitRoll">Initiative Roll:</string>
+    <string name="txtTempHP">Temporary HP:</string>
+    <string name="txtRef">Reflex:</string>
+    <string name="txtWill">Will:</string>
+    <string name="txtStr">Strength:</string>
+    <string name="txtCon">Constitution:</string>
+    <string name="txtDex">Dexerity:</string>
+    <string name="txtInt">Intelligence:</string>
+    <string name="txtWis">Wisdom:</string>
+    <string name="txtCha">Charisma:</string>
+    <string name="txtSpeed">Speed:</string>
+    <string name="txtPassIn">Passive Insight:</string>
+    <string name="txtPassPer">Passive Perception: </string>
+    <string name="txtNotes">Notes:</string>
+    <string name="txtNotesBox">Enter notes here...</string>
+    <string name="txtOK">Ok</string>
+    <string name="txtReset">Reset</string>
+    <string name="txtRoll">Should dMinion roll this character\'s initiative?</string>
+    <string name="txtRollBox">Check to have dMinion roll initative for this character.</string>
+    <string name="AA">AA</string>
+    <string name="AAA">AAA</string>
+    <string name="txtRefresh">Refresh</string>
+    <string name="round">Round: </string>
+    <string name="turn">Turn: </string>
+    <string name="txtNext">Next</string>
+    <string name="previous">Previous</string>
+    <string name="add">Add</string>
+</resources>

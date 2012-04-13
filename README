@@ -1,0 +1,12 @@
+This is a snapshot of an 'in development' build of dMinion, my android
+app. Quite a bit of this code has changed since the most recent release
+which is $.99 on the Android app store.
+
+This git may be useful for folks who want to make their own initative
+tracker, or people with other ideas for 4th edition Dungeons and Dragons,
+since the 'character' class has most of the important variables generated.
+
+This release is licensed under a Creative Commons Attribution-NonCommercial-
+ShareAlike 3.0 Unported License. In otherwords, do what you want with it,
+as long as you're not selling it, impersonating me, or blaming me when
+something goes wrong.
